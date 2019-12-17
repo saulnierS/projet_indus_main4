@@ -2,4 +2,4 @@
 
 dossier contenant le code en C
 
-doossier contenant l'ensemble du code en matmab
+dossier contenant l'ensemble du code en matmab
