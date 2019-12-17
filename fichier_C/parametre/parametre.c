@@ -1,5 +1,7 @@
 #include "parametre.h"
 
+#define M_PI 3.14159265358979323846
+
 float f_S(float* vec,int taille,int p){
 	float Sp=0;
 	for (int i = 0; i < taille; ++i)
@@ -24,11 +26,11 @@ float f_T(float Cp_b, float Sp_b){
 
 	if (Cp_b<0)
 	{
-		Tp=Tp+3.14;
+		Tp=Tp+M_PI;
 	}
 	else if(Cp_b>0 && Sp_b<0)
 	{
-		Tp=Tp+2*3.14;
+		Tp=Tp+2*M_PI;
 	}
 
 	return Tp;
